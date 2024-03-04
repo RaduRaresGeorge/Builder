@@ -1,11 +1,11 @@
 package builders;
 
-import refactoring_guru.builder.example.cars.Manual;
-import refactoring_guru.builder.example.cars.CarType;
-import refactoring_guru.builder.example.components.Engine;
-import refactoring_guru.builder.example.components.GPSNavigator;
-import refactoring_guru.builder.example.components.Transmission;
-import refactoring_guru.builder.example.components.TripComputer;
+import cars.Manual;
+import cars.CarType;
+import components.Engine;
+import components.GPSNavigator;
+import components.Transmission;
+import components.TripComputer;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,
